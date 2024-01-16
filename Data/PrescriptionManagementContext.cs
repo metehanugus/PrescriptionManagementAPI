@@ -45,7 +45,7 @@ namespace PrescriptionManagementAPI.Data
             // Mapping for User entity
             modelBuilder.Entity<User>().ToTable("User");
 
-            // Add similar lines for other entities if their table names are not pluralized
+           
         }
     }
 }

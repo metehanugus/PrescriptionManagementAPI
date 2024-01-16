@@ -19,7 +19,7 @@ builder.Services.AddDbContext<PrescriptionManagementContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("PrescriptionManagementDB")));
 builder.Services.AddScoped<MedicineService>();
 // JWT Authentication Setup
-var keyString = "YourSuperSecretKeyHere"; // Replace with your secret key
+var keyString = "SuperSuperSuperSuperGizliGizliGizliGizliUzunUzunUzunUzuuuunKey";
 var keyByteArray = Encoding.ASCII.GetBytes(keyString);
 builder.Services.AddAuthentication(x =>
 {
